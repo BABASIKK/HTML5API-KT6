@@ -1,0 +1,48 @@
+<!-- Честно говоря я прикола с навигацией по истории браузера не понял особо 
+ но вроде работает, наверно... -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 API KT6</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="container">
+        <header>
+            <h1>HTML5 API KT6</h1>
+        </header>
+
+        <!-- Navigation Back Forward Section -->
+        <section>
+            <h2>1. Навигация по Истории Браузера</h2>
+            <button id="backButton">Назад</button>
+            <button id="forwardButton">Вперед</button>
+        </section>
+
+        <!-- Canvas Animation Graphic Section -->
+        <section>
+            <h2>2. Графика и Анимация (Canvas)</h2>
+            <canvas id="canvas"></canvas>
+        </section>
+
+        <!-- Web-Workers Section -->
+        <section>
+            <h2>3. Веб-воркеры</h2>
+            <label for="workerInput">Введите число для расчета:</label>
+            <input type="number" id="workerInput">
+            <button id="startWorker">Запустить Веб-воркер</button>
+            <p id="workerResult">Результат: </p>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2024 Sharabutdin & XZKTO (for IThub project)</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
